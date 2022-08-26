@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+
+}
+nav{
+    background-color: rgb(158, 195, 228);
+}
+.nav_div{
+    padding: 5px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_div{
+    max-width: 100px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.logo{
+    max-width: 30px;
+}
+.logo_p{
+   font-weight: bold;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+.nav_btu{
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(20, 113, 150);
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    padding: 6px;
+    margin: 6px;
+}
+.banner{
+    color: white;
+    background-color: brown;
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    padding: 10vw;
+
+}
+.banner_p1{
+    padding: 10px 0px;
+}
+.banner_h1{
+    padding: 10px 0px; 
+}
+.banner_btu{
+    padding: 10px;
+    margin: 30px 0px;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(89, 89, 185, 0);
+    border: 1px solid white;
+}
+:hover.banner_btu{
+    background-color: aliceblue;
+    color: black;
+}
+.sec_di{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+}
+.sec_h1{
+    text-align: center;
+    font-size: 35px;
+}
+.sec_t1{
+    max-width: 300px;
+    padding: 30px;
+    text-align: center;
+}
+.sect1_img{
+    max-width: 100%;
+    padding: 20px;
+}
+.cover_divsec{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: blue;
+ }
+
+ /* sction 3 */
+ /* .info_img{
+    max-width: 400px;
+ } */
+ /* .main_info{
+    display: flex;
+ } */
+
+ 
+@media (max-width: 840px) {
+
+ 
+  }
+
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {  /* new */
+
+    .sec_di{
+        display: block;
+    }
+    .cover_divsec{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+  }
